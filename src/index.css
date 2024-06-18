@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.header-div{
+  color: var(--bs-teal);
+}
+#form-box{
+  display: flex;
+}
