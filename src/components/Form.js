@@ -14,7 +14,7 @@ export function Form({ taskList, addTask }) {
     const newTask = {
       id: lastTaskID + 1,
       name: taskName,
-      description: taskDesc,
+      desc: taskDesc,
       status: "Pending"
     };
 
