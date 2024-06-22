@@ -17,3 +17,42 @@ code {
 #form-box{
   display: flex;
 }
+
+.tasks-header-box {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 5rem;
+}
+
+.tasks-card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  margin: 2rem 5rem;
+}
+
+.card-body {
+  text-align: left;
+  background-color: rgb(178, 247, 178);
+  display: flex;
+  flex-direction: column;
+}
+
+.button-box {
+  margin-left: auto;
+  margin-top: 1rem;
+}
+
+.task-status {
+  display: flex;
+  align-items: center;
+}
+
+.task-status label {
+  margin-right: 8px;
+}
+
+#status-filter {
+  text-align: center;
+  margin-left: 1rem;
+}
