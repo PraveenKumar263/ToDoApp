@@ -29,11 +29,16 @@ code {
   flex-wrap: wrap;
   align-items: stretch;
   margin: 2rem 5rem;
+  
+}
+.card {
+  background-color: rgb(33,37,41);
+  border-radius: 1.5rem;
+  color: whitesmoke;
 }
 
 .card-body {
   text-align: left;
-  background-color: rgb(178, 247, 178);
   display: flex;
   flex-direction: column;
 }
