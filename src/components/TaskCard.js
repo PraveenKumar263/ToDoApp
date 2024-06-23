@@ -41,8 +41,7 @@ export function TaskCard({ task, removeTask, updateTask }) {
         <div className="task-status">
             <label htmlFor="statusInput">Status Filter:</label>
             <select
-                id="statusInput"
-                value={editedTask.status}
+                value={editedTask.status === "Completed" ? "Completed": "Not Completed"}
                 onChange={handleStatusChange}
                 className="form-select mb-2"
                 style={{ 
@@ -53,7 +52,7 @@ export function TaskCard({ task, removeTask, updateTask }) {
                     outline: "none"
                 }}
             >
-                <option value="NotCompleted">Not Completed</option>
+                <option value="NotComplete">Not Completed</option>
                 <option value="Completed">Completed</option>
             </select>
         </div>

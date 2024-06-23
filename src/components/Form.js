@@ -7,6 +7,12 @@ export function Form({ taskList, addTask }) {
   const handleSubmit = (event) => {
     event.preventDefault();
 
+    // Ensure field are not null
+    if (!taskName.trim() || !taskDesc.trim()) {
+      alert("Task name and description cannot be empty!");
+      return;
+    }
+
     // Get last item's ID or default to 0
     const lastTaskID = taskList.length > 0 ? taskList.slice(-1).id : 0;
 
@@ -15,7 +21,7 @@ export function Form({ taskList, addTask }) {
       id: lastTaskID + 1,
       name: taskName,
       desc: taskDesc,
-      status: "Not Completed"
+      status: "NotComplete"
     };
 
     addTask(newTask);
