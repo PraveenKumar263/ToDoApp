@@ -3,7 +3,7 @@
         "id": 1,
         "name": "Office Task-1",
         "desc": "this is the description of my First Task",
-        "status": "Pending"
+        "status": "Not Completed"
     },
     {
         "id": 2,
@@ -15,6 +15,6 @@
         "id": 3,
         "name": "Office Task-3",
         "desc": "this is the description of my Third Task",
-        "status": "Pending"
+        "status": "Not Completed"
     }
 ]
