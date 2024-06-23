@@ -53,7 +53,7 @@ export function TaskCard({ task, removeTask, updateTask }) {
                     outline: "none"
                 }}
             >
-                <option value="Pending">Pending</option>
+                <option value="NotCompleted">Not Completed</option>
                 <option value="Completed">Completed</option>
             </select>
         </div>
