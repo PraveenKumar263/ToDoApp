@@ -15,7 +15,7 @@ export function Form({ taskList, addTask }) {
       id: lastTaskID + 1,
       name: taskName,
       desc: taskDesc,
-      status: "Pending"
+      status: "Not Completed"
     };
 
     addTask(newTask);
